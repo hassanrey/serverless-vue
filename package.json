@@ -1,0 +1,23 @@
+{
+  "name": "serverless-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "",
+    "deploy" : "nuxt build && sls deploy" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.3.4",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-http": "^1.8.0"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^2.6.6"
+  }
+}
